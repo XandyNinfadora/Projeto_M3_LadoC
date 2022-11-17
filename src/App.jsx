@@ -1,13 +1,15 @@
-import styles from './App.css'
+import "./App.css";
+import Navbar from "./components/menu";
 
 function Cabecalho() {
 
 
   return (
-    <div className={styles.cabecalho2}>
+    <div className="cabecalho3">
 <h1>gANHAMO</h1>
+<Navbar> </Navbar>
     </div>
-    
+
   )
 }
 
