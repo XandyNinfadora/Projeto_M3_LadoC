@@ -2,6 +2,7 @@
     width: 1200px;
     display: flex;
     justify-content: space-between;
+    color: aqua;
     margin: 0 auto;
     flex-wrap: wrap;
 }

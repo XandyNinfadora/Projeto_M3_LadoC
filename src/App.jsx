@@ -5,18 +5,14 @@ import Filial from "./components/pages/Filial";
 import Ingressos from "./components/pages/Ingressos";
 import CompraOnline from "./components/pages/CompraOnline";
 import Container from "./components/layout/Container";
-
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
 function App() {
 
 
   return (
     <>
-    <div className="linksIndex">
-      <Link to="/filmes">Filmes</Link>
-      <Link to="/filial">Filial</Link>
-      <Link to="/ingressos">Ingressos</Link>
-      <Link to="/compraonline">Compra Oline</Link>
-    </div>
+    <Navbar/>
     <Container customClass="min-height">
     <Routes>
       <Route path="/filmes" element={<Filmes/>}/>
@@ -25,7 +21,7 @@ function App() {
       <Route path="/compraonline" element={<CompraOnline/>}/>
     </Routes>
     </Container>
-    <p>Footer</p>
+    <Footer/>
     </>
   )
 }
