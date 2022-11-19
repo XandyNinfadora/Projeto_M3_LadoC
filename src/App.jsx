@@ -7,6 +7,7 @@ import CompraOnline from "./components/pages/CompraOnline";
 import Container from "./components/layout/Container";
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
+import Home from './components/pages/Home';
 function App() {
 
 
@@ -15,6 +16,7 @@ function App() {
     <Navbar/>
     <Container customClass="min-height">
     <Routes>
+      <Route path="/" element={<Home/>}/>
       <Route path="/filmes" element={<Filmes/>}/>
       <Route path="/filial" element={<Filial/>}/> 
       <Route path="/ingressos" element={<Ingressos/>}/>
