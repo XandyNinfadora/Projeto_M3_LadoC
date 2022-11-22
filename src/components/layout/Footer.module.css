@@ -1,40 +1,182 @@
+/* CAIXA QUE REGE TUDO */
 .footer {
-    background-color: #231f1f;
     color: #f3f3e8;
-    padding: 3em;
-    text-align: center;
-    font-weight: bold;
-}
-
-.socialList {
-    margin-top: 3%;
-    display: flex;
-    justify-content: center;
+  }
+  
+  
+  
+  /* REDES SOCIAIS */
+  
+  .socialList {
     list-style-type: none;
-}
-.socialList li {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  
+  }
+  
+  .socialList li {
     margin: 0 1em;
-}
-
-.socialList li:hover {
+  }
+  
+  .socialList li:hover {
     transition: 0.5s;
     color: #FFA300;
-}
-
-.socialList svg {
+  }
+  
+  .socialList svg {
     font-size: 1.5em;
     cursor: pointer;
-}
-
-.copyRight {
-    margin-top: 2em;
-}
-
-.copyRight span {
+  }
+  
+  /* CAIXA DE TEXTO */
+  .footerColLinkDif {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #f3f3e8;
+    text-decoration: none;
+    cursor: default;
+  }
+  
+  .footerCol .formSub input {
+    margin: 10px 0;
+    padding: 10px 46px 10px 10px;
+    font-size: 12px;
+    border: 1px solid #f3f3e8;
+    border-radius: 5px;
+    color: #f3f3e8;
+    background-color: #231f1f;
+  }
+  
+  .footerCol .formSub input::placeholder {
+    color: #ffa200bf;
+  }
+  
+  .footerCol .formSub button {
+    margin-top: 10%;
+    padding: 5px 15px 10px 12px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    color: #231f1f;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: #f3f3e8;
+  }
+  
+  .footerCol .formSub button:hover {
+    color: #FFA300;
+  }
+  
+  
+  /* PARTE DOS CRÉDITOS */
+  
+  
+  .copyRightDiv {
+    background-color: #342e2e;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .copyRight span {
     font-weight: bold;
     color: #FFA300;
-}
-
-hr {
-    background-color: #FFA300;
-}
+    font-family: 'Bree Serif';
+  }
+  
+  
+  /* TODA LISTA DO RODAPÉ */
+  .containerFooter {
+    padding: 30px 30px 30px 30px;
+    background-color: #231f1f;
+  
+  }
+  
+  .rowFooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .footerCol {
+    width: 25%;
+    padding: 0 15px;
+  }
+  
+  .footerCol h4 {
+    font-family: 'Bree Serif';
+    font-size: 18px;
+    color: #f3f3e8;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  .footerCol ul {
+    list-style: none;
+  }
+  
+  .footerCol ul li {
+    margin: 10px 0;
+  }
+  
+  .footerColLink {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #f3f3e8;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .footerColLink:hover {
+    color: #FFA300;
+    padding-left: 10px;
+  
+  }
+  
+  
+  /* NO MOBILE */
+  
+  @media (max-width:800px) {
+    .footerCol {
+      margin-bottom: 30px;
+  
+    }
+  
+    @media (max-width:600px) {
+      .footerCol {
+        width: 100%;
+      }
+  
+      .socialList li:hover {
+        color: inherit;
+      }
+  
+      .footerColLink:hover {
+        padding-left: 0;
+        color: inherit;
+      }
+  
+      .footerColLink {
+        transition: none;
+      }
+    }
+  
+    .socialList {
+      margin-top: 3%;
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+    }
+  
+    .socialList li {
+      margin: 0 1em;
+    }
+  
+    .socialList svg {
+      font-size: 1.5em;
+      cursor: disabled;
+    }
+    .footerCol .formSub button {
+      margin: 11px;
+    }
+  }
