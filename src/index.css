@@ -1,9 +1,14 @@
+@font-face {
+    font-family: 'FreeSans';
+    src: url(/public/FreeSans.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Bree Serif', serif;
-
+    font-family: 'FreeSans';
 }
 html, body, #root{
 background-color: #d1d1d1;
