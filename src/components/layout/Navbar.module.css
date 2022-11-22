@@ -1,5 +1,5 @@
 #logoCinema {
-    width: 45%;
+    width: 35%;
     border-radius: 10px;
     box-shadow: 1px 1px 11px 4px #df8d00bd;
     
@@ -8,19 +8,19 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #111111;
-    padding: 0.5em 1em 1.0em 3em;
+    background-color: #231f1f;
+    padding: 0.3em 1em 0.1em 3em;
 
 }
 
-.list {
+.listNav {
     display: flex;
     list-style: none;
     align-items: center;
 }
 
 .item {
-    margin-right: 5em;
+    margin-right: 4em;
 }
 
 .item a {
@@ -31,4 +31,19 @@
 .item a:hover {
     color: #FFA300;
 
+}
+
+@media (max-width: 750px) {
+    #logoCinema {
+        margin-left: 22%;
+        width: 55%;
+    }
+
+    .navbar {
+        padding: 0px;
+    }
+
+    .listNav {
+        display:unset;
+    }
 }

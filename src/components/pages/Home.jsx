@@ -1,6 +1,6 @@
 function Home () {
     return (
-        <h1> home tá funfando clã</h1>
+        <h1> home tá funfando AAAAAAA clã</h1>
     )
 }
 
