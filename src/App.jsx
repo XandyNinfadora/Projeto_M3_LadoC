@@ -3,7 +3,6 @@ import {BrowserRouter as Router, Routes, Route, Link, useRoutes, useLocation} fr
 import Filmes from "./components/pages/Filmes";
 import Filial3 from "./Filial";
 import Ingressos from "./components/pages/Ingressos";
-import CompraOnline from "./components/pages/CompraOnline";
 import Container from "./components/layout/Container";
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
