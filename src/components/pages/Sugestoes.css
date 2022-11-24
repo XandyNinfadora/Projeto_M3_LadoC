@@ -1,0 +1,55 @@
+.homeDiv {
+    background-color: #c2c2c2;
+    width: 1223px;
+    height: 800px;
+    padding: 50px 45px 50px 45px;
+
+}
+
+.homeDiv h1 {
+    text-align: start;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #FFA300;
+    text-shadow: 2px 2px 2px #231f1f;
+}
+
+.homeDiv h2 {
+    color: #342e2e;
+}
+
+.homeDiv h2::first-letter {
+    text-transform: uppercase;
+}
+
+.homeDiv p {
+    color: #231f1f;
+}
+.homeDiv p::first-letter {
+    text-transform: uppercase;
+}
+
+.btn {
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    color: #231f1f;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: #FFA300;
+    text-shadow: 1px 1px 1px #121212;
+    padding-left: 10px;
+
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #524848;
+
+}

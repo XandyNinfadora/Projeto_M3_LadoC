@@ -1,7 +1,7 @@
 import "./App.css";
 import {BrowserRouter as Router, Routes, Route, Link, useRoutes, useLocation} from 'react-router-dom'
 import Filmes from "./components/pages/Filmes";
-import Filial from "./components/pages/Filial";
+import Filial3 from "./Filial";
 import Ingressos from "./components/pages/Ingressos";
 import CompraOnline from "./components/pages/CompraOnline";
 import Container from "./components/layout/Container";
@@ -20,9 +20,8 @@ function App() {
     <Routes location={location} key={location.pathname}>
       <Route path="/" element={<Home/>}/>
       <Route path="/filmes" element={<Filmes/>}/>
-      <Route path="/filial" element={<Filial/>}/> 
+      <Route path="/filial" element={<Filial3/>}/> 
       <Route path="/ingressos" element={<Ingressos/>}/>
-      <Route path="/compraonline" element={<CompraOnline/>}/>
       <Route path="/sugestoes" element={<Sugestoes/>}/>
     </Routes>
     </Container>

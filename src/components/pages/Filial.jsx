@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import styles from './Filial.css';
-function Filial() {
+function Filial2() {
     return (
         <motion.div className={styles.divPage}
             initial={{ opacity: 0 }}
@@ -11,4 +11,4 @@ function Filial() {
 
     )
 }
-export default Filial;
+export default Filial2;
