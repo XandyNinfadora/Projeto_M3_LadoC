@@ -1,16 +1,17 @@
 import { motion } from 'framer-motion';
 import styles from './Sugestoes.css';
 import { useState, useEffect } from 'react';
-import axios from 'axios';
 import { Link } from 'react-router-dom';
+import blogFetch from '../configAxios';
+import NewPost from './NewPost';
 
 
 function Sugestoes() {
     const [posts, setPosts] = useState([])
     const getPosts = async () => {
         try {
-            const response = await axios.get("https://lado-c.onrender.com/sugestoes")
-            const data = response.data
+            const response = await blogFetch.get("/sugestoes");
+            const data = response.data;
 
             setPosts(data);
         }
@@ -22,7 +23,8 @@ function Sugestoes() {
     useEffect(() => {
         getPosts()
 
-    }, [])
+    }, []);
+
     return (
         <motion.div className={styles.divPage}
             initial={{ opacity: 0 }}
@@ -34,9 +36,9 @@ function Sugestoes() {
                         <h2>{post.Nome}</h2>
                         <p>{post.Comentário}</p>
                         <Link to={`/posts/${post.id}`} className="btn"> Ler mais...</Link>
-
                     </div>
-                )))}
+                )))};
+                <NewPost></NewPost>
             </div>
         </motion.div>
     )

@@ -1,0 +1,61 @@
+.newPost h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #FFA300;
+    text-shadow: 1px 1px 1px #121212;
+    font-size: 29px;
+}
+
+form {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.formControl {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.formControl label {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    color: #231f1f;
+    text-shadow: 2px 2px 2px #FFA300;
+}
+
+.formControl input,
+.formControl textarea {
+    font-size: 12px;
+    border: 2px solid #231f1f;
+    color: #231f1f;
+    background-color: #c2c2c2;
+    padding: .5rem;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.formControl input::placeholder,
+.formControl textarea::placeholder {
+    color: rgba(116, 74, 0, 0.463);
+
+}
+
+.formControl button {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 5px 15px 10px 12px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    color: #c2c2c2;
+    border-radius: 3px;
+    background-color: #231f1f;
+}
+
+.formControl button:hover {
+    color: #FFA300;
+
+}

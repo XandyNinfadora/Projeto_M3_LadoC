@@ -19,6 +19,7 @@
     border-radius: 2%;
     box-shadow: 1px 1px 11px 4px #231f1f;
     padding: 20px;
+    margin: 20px 5px 20px 5px;
 
     /* display */
     display: flex;
