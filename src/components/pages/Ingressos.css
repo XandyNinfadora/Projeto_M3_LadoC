@@ -3,17 +3,10 @@
     font-size: 20px;
 } 
 
-.textoFilial {
-    
-        width: 100%;
-        display: block;
-        min-width: 20px;
-    
-}
 #body2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 10px;
-    padding: 20px;
+    padding: 90px;
     
 }
