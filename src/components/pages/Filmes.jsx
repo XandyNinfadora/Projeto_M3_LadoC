@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import styles from './Filmes.css';
-import * as bootstrap from 'bootstrap';
 
 function Filmes() {
     return (
