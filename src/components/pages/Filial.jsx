@@ -1,4 +1,4 @@
-import BanguShopping from "../../../public/filial/BanguShopping.jpg"
+import BanguShopping from "../../../public/filial/bangushopping.jpg"
 import JardimGuadalupe from "../../../public/filial/jardimguadalupe.jpg"
 import ViaBrasil from "../../../public/filial/viabrasil.jpg"
 import WestShopping from "../../../public/filial/westshopping.jpg"
