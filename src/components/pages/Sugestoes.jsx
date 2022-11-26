@@ -31,7 +31,7 @@ function Sugestoes() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }} >
             <div className='homeDiv'>
-                <h1> Sugestões dos nossos clientes</h1> {posts.length === 0 ? <p> carregando a dor</p> : (posts.map((post) => (
+                <h1> Sugestões dos nossos clientes</h1> {posts.length === 0 ? <p id="carrega"> Carregando as informações, um momentinho!</p> : (posts.map((post) => (
                     <div className='post' key={post.id}>
                         <h2>{post.Nome}</h2>
                         <p>{post.Comentário}</p>

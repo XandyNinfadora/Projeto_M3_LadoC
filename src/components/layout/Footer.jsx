@@ -21,7 +21,7 @@ function Footer() {
                     <div className={styles.footerCol}>
                         <h4> Filmes </h4>
                         <ul>
-                            <li> <Link className={styles.footerColLink}>Em Cartaz</Link></li>
+                            <li> <Link to="/filmes" className={styles.footerColLink}>Em Cartaz</Link></li>
                             <li> <Link className={styles.footerColLink}>Pré-Estréia</Link> </li>
                             <li> <Link className={styles.footerColLink}>Em Breve</Link></li>
                             <li> <Link className={styles.footerColLink}>Especial Terror 80'</Link> </li>
@@ -35,7 +35,7 @@ function Footer() {
                             <Link className={styles.footerColLinkDif}>Descontos? </Link>
                             <div className={styles.formSub}>
                                 <form>
-                                    <input type="email" placeholder='Digite seu e-amil e receba!' required />
+                                    <input type="email" placeholder='Digite seu e-mail e receba!' required />
                                     <button>Assinar</button>
                                 </form>
                             </div>

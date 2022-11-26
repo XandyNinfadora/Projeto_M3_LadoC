@@ -1,7 +1,7 @@
 import "./App.css";
 import {BrowserRouter as Router, Routes, Route, Link, useRoutes, useLocation} from 'react-router-dom'
 import Filmes from "./components/pages/Filmes";
-import Filial3 from "./Filial";
+import Filial3 from "./components/pages/Filial";
 import Ingressos from "./components/pages/Ingressos";
 import Container from "./components/layout/Container";
 import Navbar from './components/layout/Navbar';
