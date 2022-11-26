@@ -30,7 +30,7 @@ function Footer() {
                     </div>
 
                     <div className={styles.socialListDiv}>
-                    <div className={styles.footerCol}>
+                        <div className={styles.footerCol}>
                             <h4> Promoções? </h4>
                             <Link className={styles.footerColLinkDif}>Descontos? </Link>
                             <div className={styles.formSub}>

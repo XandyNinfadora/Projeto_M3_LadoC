@@ -22,7 +22,7 @@
 .dsmovie-card {
     width: 80%;
     padding: 10px;
-    
+
 }
 
 .dsmovie-card img {
@@ -72,7 +72,8 @@
     margin-bottom: 10px;
 }
 
-.dsmovie-btn, .dsmovie-btn:hover {
+.dsmovie-btn,
+.dsmovie-btn:hover {
     width: 180px;
     height: 40px;
     background-color: var(--color-primary);
@@ -91,7 +92,7 @@
     max-width: 480px;
 }
 
-.dsmovie-form-description{
+.dsmovie-form-description {
     background-color: var(--white);
     padding: 20px;
     display: flex;

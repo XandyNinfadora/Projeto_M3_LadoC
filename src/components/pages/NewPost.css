@@ -37,6 +37,7 @@ form {
     margin-bottom: 2%;
 
 }
+
 .formControl input::placeholder,
 .formControl textarea::placeholder {
     color: rgba(116, 74, 0, 0.463);

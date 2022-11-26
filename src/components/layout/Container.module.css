@@ -5,9 +5,11 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .min-height {
     min-height: 75%;
 }
+
 .start {
     justify-content: flex-start;
 }

@@ -2,7 +2,7 @@
     width: 35%;
     border-radius: 10px;
     box-shadow: 1px 1px 11px 4px #df8d00bd;
-    
+
 }
 
 .navbar {
@@ -29,6 +29,7 @@
     text-decoration: none;
     transition: 0.5s
 }
+
 .item a:hover {
     color: #FFA300;
 
@@ -45,6 +46,6 @@
     }
 
     .listNav {
-        display:unset;
+        display: unset;
     }
 }

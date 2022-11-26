@@ -7,7 +7,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-content: space-around;
-    
+
     /* preciso ajeitar a responsividade */
 }
 
@@ -15,7 +15,7 @@
     /* estilo da caixa */
     width: 45%;
     height: 45%;
-    background-color:  #231f1f;
+    background-color: #231f1f;
     border-radius: 2%;
     box-shadow: 1px 1px 11px 4px #231f1f;
     padding: 20px;
@@ -36,11 +36,12 @@
 .divImg {
     width: 45%;
     height: 100%;
-    box-shadow: 1px 1px 2px 4px  #FFA300;
+    box-shadow: 1px 1px 2px 4px #FFA300;
     min-width: 20px;
 }
 
-.nomeFilial , .enderecoFilial {
+.nomeFilial,
+.enderecoFilial {
     color: #f3f3e8;
     margin-bottom: 10%;
 }
