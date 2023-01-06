@@ -1,6 +1,7 @@
 # Terceiro projeto em grupo
 
 Podem ser utilizados os métodos Get, Put, Post e Delete na rota/sugestões.
+O site pode ser acessado por esse link: https://github.com/XandyNinfadora/M3-Cinema
 
 ## Dependências utilizadas
 - Axios;
