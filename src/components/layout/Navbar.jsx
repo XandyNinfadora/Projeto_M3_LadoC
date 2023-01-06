@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Container from './Container';
 import styles from './Navbar.module.css'
-import logoCinema from '../../../public/logoLadoC.jpg';
+import logoCinema from '../../../public/logoLadoC.png';
 
 function Navbar() {
   return (

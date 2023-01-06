@@ -1,7 +1,5 @@
 #logoCinema {
-    width: 35%;
-    border-radius: 10px;
-    box-shadow: 1px 1px 11px 4px #df8d00bd;
+    width: 49%;
 
 }
 
@@ -9,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     background-color: #231f1f;
-    padding: 0.3em 1em 0.1em 3em;
+    padding: 0em 0em 0em 2em;
     font-weight: bold;
 
 }
@@ -21,7 +19,7 @@
 }
 
 .item {
-    margin-right: 4em;
+    margin-right: 9em;
 }
 
 .item a {

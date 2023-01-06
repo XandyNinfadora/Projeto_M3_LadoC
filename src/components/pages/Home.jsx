@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import styles from './Home.css';
-import fotoHome from '../../../public/jw.jpg';
+import fotoHome from '../../../public/fotoCinemaHome.png';
 
 function Home() {
     return (
