@@ -1,7 +1,7 @@
 # Terceiro projeto em grupo - Lado C
 O objetivo do projeto é abrigar um website de cinema que trará informações das filiais e dos filmes em cartaz, além disso, também contendo uma seção de sugestões onde será de total domínio dos clientes para expor suas ideias e ajudar nas melhorias do cinema.
 
-A webpage pode ser acessada por esse link https://lado-c-cinema.
+A webpage pode ser acessada por esse link https://lado-c-cinema.onrender.com.
 
 <hr>
 <h3> Como rodar o projeto:</h3>
@@ -44,6 +44,11 @@ Podem ser utilizados os seguintes métodos na rota /sugestões
 - React DOM; 
 - React Router DOM;
 - React Icons.
+
+<hr>
+
+## API
+O projeto consome a seguinte api https://lado-c.onrender.com.
 
 <hr>
 
