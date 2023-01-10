@@ -47,8 +47,8 @@ Podem ser utilizados os seguintes métodos na rota /sugestões
 
 <hr>
 
-## API
-O projeto consome a seguinte api https://lado-c.onrender.com.
+## API REST
+O projeto consome dados mockados de um jsonserver hospedado no seguinte link https://lado-c.onrender.com.
 
 <hr>
 
