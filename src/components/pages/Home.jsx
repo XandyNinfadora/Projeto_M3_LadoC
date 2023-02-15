@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import styles from './Home.module.css';
 import fotoHome from '../../../public/fotoCinemaHome.jpg';
+import estilos from './home.css'
 
 function Home() {
     return (
