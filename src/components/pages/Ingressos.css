@@ -19,3 +19,20 @@
     margin: 20px;
 
 }
+.cardFilial2 {
+    /* estilo da caixa */
+    width: 45%;
+    height: 45%;
+    background-color: #231f1f;
+    border-radius: 2%;
+    box-shadow: 1px 1px 11px 4px #2f2f2f;
+    padding: 20px;
+    margin: 60px 5px 20px 5px;
+
+    /* display */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}

@@ -1,6 +1,12 @@
-#body {
+#aDiv {
+    background-image: url(../../../public/f1.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+
+}
+.body {
     /* página */
-    margin: 0.5%;
+
     margin-left: 3%;
     margin-right: 3%;
     display: flex;
@@ -11,12 +17,15 @@
 
     /* preciso ajeitar a responsividade */
 }
+.aRef {
+        text-decoration: none;
+}
 
 .cardFilial {
     /* estilo da caixa */
     width: 45%;
     height: 45%;
-    background-color: #231f1f;
+    background-color: #ae3a2a;
     border-radius: 2%;
     box-shadow: 1px 1px 11px 4px #2f2f2f;
     padding: 20px;
@@ -37,7 +46,7 @@
 }
 
 .imgFilial {
-    box-shadow: 1px 1px 15px 2px #fcb02c;
+    box-shadow: 1px 1px 6px 2px #52160f;
     border-radius: 40px 10px;
 
 }
@@ -53,7 +62,8 @@
 }
 
 .nomeFilial:hover {
-    color: #FFA300;
+    color: #073a86;
+
 }
 
 .imgFilial {

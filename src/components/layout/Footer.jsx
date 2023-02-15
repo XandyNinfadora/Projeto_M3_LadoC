@@ -41,9 +41,9 @@ function Footer() {
                             </div>
                         </div>
                         <ul className={styles.socialList}>
-                            <li>
-                                <FaFacebook />
-                            </li>
+                         <li>
+                            <FaFacebook />
+                           </li>
                             <li>
                                 <FaInstagram />
                             </li>

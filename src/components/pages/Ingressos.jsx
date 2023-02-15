@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import styles from './Ingressos.css';
-import img from '../../../public/ingressos.jpg'
 
 function Ingressos() {
   return (
@@ -9,7 +8,7 @@ function Ingressos() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }} >
       <div id="body2">
-        <div className="cardFilial">
+        <div className="cardFilial2">
           <div className="textoFilial2">
             <h1 className="nomeFilial2">Sexta, Sábado, Domingo e Feriados</h1>
             <p className="enderecoFilial2">Estão no valor de R$ 12,99 a meia-entrada
@@ -18,7 +17,7 @@ function Ingressos() {
 
 
         </div>
-        <div className="cardFilial">
+        <div className="cardFilial2">
           <div className="textoFilial2">
             <h1 className="nomeFilial2">Segunda, Terça, Quarta e Quinta</h1>
             <p className="enderecoFilial2"> Estão pelo preço promocional de R$ 9,99 a meia-entrada e a inteira por R$ 19,99!</p>

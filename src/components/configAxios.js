@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const blogFetch = axios.create({
-    baseURL: "https://lado-c-api.onrender.com/",
+    baseURL: "http://localhost:3000/",
     headers: {
         "Content-Type": "application/json",
     },

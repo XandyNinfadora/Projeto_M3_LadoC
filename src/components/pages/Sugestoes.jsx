@@ -37,6 +37,7 @@ function Sugestoes() {
                     <div className={styles.sugestoesPost} key={post.id}>
                         <h2>{post.nome_cliente}</h2>
                         <p>{post.comentario_cliente}</p>
+                        <Link to={`/posts/${post.id}`} className={styles.sugestoesBtn}> Ler mais...</Link>
                     </div>
                 )))};
                 <NewPost></NewPost>
