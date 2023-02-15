@@ -6,7 +6,16 @@
 #body2 {
     display: flex;
     justify-content: space-between;
-    margin: 10px;
-    padding: 90px;
+    padding: 200px;
+    background-image: url(../../../public/ingressos.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+
+}
+
+.enderecoFilial2 {
+    text-align: center;
+
+    margin: 20px;
 
 }

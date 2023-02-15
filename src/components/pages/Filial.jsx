@@ -44,8 +44,8 @@ function Filial3() {
 
         <div className="cardFilial">
           <div className="textoFilial">
-            <h1 className="nomeFilial">Shopping Via Brasil</h1>
-            <p className="enderecoFilial">R. Itapera, 500 - Irajá, Rio de Janeiro - RJ, 21230-500</p>
+            <h1 className="nomeFilial">Parque Shopping Sulacap</h1>
+            <p className="enderecoFilial">Av. Marechal Fontenele, 3545 - Jardim Sulacap, Rio de Janeiro - RJ, 21740-001</p>
           </div>
           <div className="divImg">
             <img className="imgFilial" src={ViaBrasil} alt="" />
