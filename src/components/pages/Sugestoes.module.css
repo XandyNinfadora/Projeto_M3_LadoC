@@ -10,11 +10,10 @@
 /* Acerca das divs e as sugestões que serão pegas e tratadas do jsonserver*/
 /* Container que cobre toda a área da página*/
 .sugestoesDiv {
-    background-color: #c2c2c2;
-    width: 1350px;
-    height: 800px auto;
+    background-color: #231f1f;
+    width: 1519px;
+    height: 703px;
     padding: 50px 45px 50px 45px;
-    margin: 5%;
 
 }
 /* Títulos */
@@ -29,7 +28,7 @@
 
 /* Nome da pessoa que escreveu a sugestão*/
 .sugestoesDiv h2 {
-    color: #342e2e;
+    color: #FFA300;
 }
 
 .sugestoesDiv h2::first-letter {
@@ -38,7 +37,7 @@
 
 /* Comentário recebido da sugestão*/
 .sugestoesDiv p {
-    color: #231f1f;
+    color: #FFA300;
 }
 
 .sugestoesDiv p::first-letter {
@@ -48,8 +47,8 @@
 /* Os botão de ler mais no comentário */
 .sugestoesBtn {
     margin-top: 2%;
-    font-family: 'Poppins', sans-serif;
-    color: #231f1f;
+    font-family: 'Dosis', sans-serif;
+    color: #FFA300;
     text-decoration: none;
     transition: all 0.3s ease;
     font-weight: bold;

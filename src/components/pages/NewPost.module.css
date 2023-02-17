@@ -22,8 +22,8 @@
 .formControlDiv label {
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
-    color: #231f1f;
-    text-shadow: 2px 2px 2px #FFA300;
+    color: #FFA300;
+    text-shadow: 2px 2px 2px #231f1f;
 }
 
 .formControlDiv input,
@@ -39,6 +39,10 @@
 
 }
 
+#comentario {
+    height: 100px;
+}
+
 .formControlDiv input::placeholder,
 .formControlDiv textarea::placeholder {
     color: rgba(116, 74, 0, 0.463);
@@ -52,12 +56,12 @@
     font-size: 15px;
     border: none;
     cursor: pointer;
-    color: #c2c2c2;
+    color: #000000;
     border-radius: 3px;
-    background-color: #231f1f;
+    background-color: #FFA300;
+    width: 100px;
 }
 
 .formControlDiv button:hover {
-    color: #FFA300;
-
+    box-shadow: 0 12px 16px 0 #4d4c4b,0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }

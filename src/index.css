@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'FreeSans';
-    src: url(/public/FreeSans.otf) format('opentype');
+    font-family: 'Dosis';
+    src: url(/public/Dosis.otf) format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -9,7 +9,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'FreeSans';
+    font-family: 'Dosis';
 }
 
 html,
