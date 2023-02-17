@@ -1,0 +1,24 @@
+#fotoHome {
+    width: 100%;
+}
+
+.homeDiv {
+    margin: 60px;
+}
+
+.sobre {
+    padding-bottom: 3rem;
+    text-align: center;
+    font-size: 19px;
+    color: #484848;
+
+}
+
+.homeDiv h1 {
+    padding: 50px 0px 20px 0px;
+    text-align: start;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    color: #FFA300;
+    text-shadow: 2px 2px 2px #231f1f;
+}

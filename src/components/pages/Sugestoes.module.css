@@ -1,0 +1,72 @@
+/* Aqui ocorre o tratamento dos comentários vindo do jsonserver */
+
+/* Mensagem enquanto as requisições estão sendo feitas*/
+#carregamentoMensagem {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Verificar aqui nesse bloco de código sobre a responsividade e também o problema da div de informações*/
+/* Acerca das divs e as sugestões que serão pegas e tratadas do jsonserver*/
+/* Container que cobre toda a área da página*/
+.sugestoesDiv {
+    background-color: #231f1f;
+    width: 1519px;
+    height: 703px;
+    padding: 50px 45px 50px 45px;
+
+}
+/* Títulos */
+.sugestoesDiv h1 {
+    text-align: start;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #FFA300;
+    text-shadow: 2px 2px 2px #231f1f;
+    
+}
+
+/* Nome da pessoa que escreveu a sugestão*/
+.sugestoesDiv h2 {
+    color: #FFA300;
+}
+
+.sugestoesDiv h2::first-letter {
+    text-transform: uppercase;
+}
+
+/* Comentário recebido da sugestão*/
+.sugestoesDiv p {
+    color: #FFA300;
+}
+
+.sugestoesDiv p::first-letter {
+    text-transform: uppercase;
+}
+
+/* Os botão de ler mais no comentário */
+.sugestoesBtn {
+    margin-top: 2%;
+    font-family: 'Dosis', sans-serif;
+    color: #FFA300;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.sugestoesBtn:hover {
+    color: #FFA300;
+    text-shadow: 1px 1px 1px #121212;
+    padding-left: 10px;
+
+}
+
+/* Linha entre os posts*/
+.sugestoesPost {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #524848;
+
+}

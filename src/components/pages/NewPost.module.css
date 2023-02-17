@@ -1,0 +1,67 @@
+/* Estilização dos campos de texto e botões pertinentes ao delete, post e edição */
+.newPost h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #FFA300;
+    text-shadow: 2px 2px 2px #231f1f;
+    font-size: 29px;
+}
+
+.formControl {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.formControlDiv {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.formControlDiv label {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    color: #FFA300;
+    text-shadow: 2px 2px 2px #231f1f;
+}
+
+.formControlDiv input,
+.formControlDiv textarea {
+    font-size: 12px;
+    border: 2px solid #231f1f;
+    color: #231f1f;
+    background-color: #c2c2c2;
+    padding: .5rem;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+#comentario {
+    height: 100px;
+}
+
+.formControlDiv input::placeholder,
+.formControlDiv textarea::placeholder {
+    color: rgba(116, 74, 0, 0.463);
+
+}
+
+.formControlDiv button {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 5px 15px 10px 12px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    color: #000000;
+    border-radius: 3px;
+    background-color: #FFA300;
+    width: 100px;
+}
+
+.formControlDiv button:hover {
+    box-shadow: 0 12px 16px 0 #4d4c4b,0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
