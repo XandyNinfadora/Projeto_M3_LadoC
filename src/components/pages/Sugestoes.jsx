@@ -39,7 +39,7 @@ function Sugestoes() {
                         <p>{post.comentario_cliente}</p>
                         <Link to={`/posts/${post.id}`} className={styles.sugestoesBtn}> Ler mais...</Link>
                     </div>
-                )))};
+                )))}
                 <NewPost></NewPost>
             </div>
         </motion.div>
