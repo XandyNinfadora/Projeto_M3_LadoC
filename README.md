@@ -5,8 +5,7 @@ A webpage pode ser acessada por esse link https://lado-c-cinema.onrender.com
 
 A API pode ser acessada por este link https://github.com/XandyNinfadora/Projeto_Squad_M5
 
-
-<img src="site.png" width="500px"/>
+<center> <img src="site.png" width="700px"/> </center>
 
 <hr>
 <h3> Como rodar o projeto:</h3>
