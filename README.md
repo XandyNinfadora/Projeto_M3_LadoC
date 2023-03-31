@@ -1,9 +1,10 @@
 # Terceiro projeto em grupo - Lado C
 O objetivo do projeto é abrigar um website de cinema que trará informações das filiais e dos filmes em cartaz, além disso, também contendo uma seção de sugestões onde será de total domínio dos clientes para expor suas ideias e ajudar nas melhorias do cinema.
+* A página principal do site está reponsiva, porém ainda há alguns detalhes que preciso ajeitar e já estou executando. Foram feitas algumas adaptações para a execução em desktop e não pensando em mobile, parte importante do website, embora sendo necessário a entrega do trabalho, optei por deixar mais funcional. Está tudo funcionando plenamente como deveria, porém estarei desfazendo as adaptações e revisando todo o código para deixá-lo mais claro e responsivo. 
 
-A webpage pode ser acessada por esse link https://lado-c-cinema.onrender.com
+A webpage pode ser acessada por esse link: https://ladoc.onrender.com
 
-A API pode ser acessada por este link https://github.com/XandyNinfadora/Projeto_Squad_M5
+A API pode ser acessada por este link: https://github.com/XandyNinfadora/Projeto_Squad_M5
 
 <img src="site.png" width="700px"/>
 
