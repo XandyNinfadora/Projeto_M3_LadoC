@@ -29,26 +29,29 @@ function Footer() {
                         </ul>
                     </div>
 
-                    <div className={styles.socialListDiv}>
-                        <div className={styles.footerCol}>
-                            <h4> Promoções? </h4>
-                            <Link className={styles.footerColLinkDif}>Descontos? </Link>
+                    <div className={styles.footerCol}>
+                        <div className={styles.footerCol1}>
+                            <h4> Promoções </h4>
+                            <p className={styles.footerColLinkDif}>Vocês pediram e nós trouxemos!</p>
+                            <p className={styles.footerColLinkDif}>Assine e receba descontos de GRAÇA!</p>
                             <div className={styles.formSub}>
                                 <form>
-                                    <input type="email" placeholder='Digite seu e-mail e receba!' required />
-                                    <button>Assinar</button>
+                                    <input type="email" placeholder='Digite seu e-mail...' required />
+                                    <div id={styles.socialListDiv}>
+                                        <button>Assinar</button>
+                                    </div>
                                 </form>
                             </div>
                         </div>
                         <ul className={styles.socialList}>
-                         <li>
-                            <FaFacebook />
-                           </li>
                             <li>
-                                <FaInstagram />
+                                <a className={styles.aRef} href="https://www.facebook.com"><FaFacebook /></a>
                             </li>
                             <li>
-                                <FaTwitter />
+                                <a className={styles.aRef} href="https://instagram.com"><FaInstagram /></a>
+                            </li>
+                            <li>
+                                <a className={styles.aRef} href="https://twitter.com"><FaTwitter /></a>
                             </li>
                         </ul>
                     </div>

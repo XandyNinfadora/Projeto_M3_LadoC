@@ -4,12 +4,9 @@
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
     background-color: #231f1f;
     padding: 0em 0em 0em 2em;
     font-weight: bold;
-
 }
 
 .listNav {
@@ -25,7 +22,7 @@
 .item a {
     color: #f3f3e8;
     text-decoration: none;
-    transition: 0.5s
+    transition: 0.5s;
 }
 
 .item a:hover {
@@ -33,17 +30,24 @@
 
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
     #logoCinema {
-        margin-left: 22%;
+        margin-left: 30%;
+        margin-top: 20px;
         width: 55%;
     }
 
-    .navbar {
-        padding: 0px;
+    .listNav {
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        margin-left: 45%;
+        padding-top: 50px;
     }
 
-    .listNav {
-        display: unset;
+    .listNav li {
+        margin-bottom: 3rem;
     }
+
+    /* Colocar menu responsivo, já estando em pré produção*/
 }

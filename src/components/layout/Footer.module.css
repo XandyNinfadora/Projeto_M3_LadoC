@@ -15,18 +15,15 @@
 
 }
 
-.socialList li {
-  margin: 0 1em;
-}
 
-.socialList li:hover {
+
+.aRef:hover {
   transition: 0.5s;
   color: #FFA300;
 }
 
 .socialList svg {
   font-size: 1.5em;
-  cursor: pointer;
 }
 
 /* CAIXA DE TEXTO */
@@ -39,9 +36,10 @@
 }
 
 .footerCol .formSub input {
-  margin: 10px 0;
+  margin-top: 0.5rem;
+  margin-bottom: 1.3rem;
   padding: 10px 46px 10px 10px;
-  font-size: 12px;
+  font-size: 16px;
   border: 1px solid #f3f3e8;
   border-radius: 5px;
   color: #f3f3e8;
@@ -52,8 +50,14 @@
   color: #ffa200bf;
 }
 
+.aRef {
+  text-decoration: none;
+  margin-right: 2rem;
+  color: inherit;
+}
+
 .footerCol .formSub button {
-  margin-top: 10%;
+
   padding: 5px 15px 10px 12px;
   font-size: 13px;
   border: none;
@@ -68,6 +72,9 @@
   color: #FFA300;
 }
 
+.footerCol p {
+  margin-bottom: 0.7rem;
+}
 
 /* PARTE DOS CRÉDITOS */
 
@@ -92,6 +99,10 @@
 
 }
 
+.containerFooter li {
+  padding-bottom: 1.3rem;
+}
+
 .rowFooter {
   display: flex;
   flex-wrap: wrap;
@@ -101,11 +112,12 @@
 .footerCol {
   width: 25%;
   padding: 0 15px;
+  margin: 20px;
 }
 
 .footerCol h4 {
   font-family: 'Dosis';
-  font-size: 22px;
+  font-size: 28px;
   color: #f3f3e8;
   margin-bottom: 20px;
   font-weight: 500;
@@ -125,6 +137,7 @@
   color: #f3f3e8;
   text-decoration: none;
   transition: all 0.3s ease;
+
 }
 
 .footerColLink:hover {
@@ -138,49 +151,25 @@
 
 
 /* NO MOBILE */
-
-@media (max-width:800px) {
+@media (max-width:820px) {
   .footerCol {
-    margin-bottom: 30px;
-
+    width: 100%;
   }
 
-  @media (max-width:600px) {
-    .footerCol {
-      width: 100%;
-    }
-
-    .socialList li:hover {
-      color: inherit;
-    }
-
-    .footerColLink:hover {
-      padding-left: 0;
-      color: inherit;
-    }
-
-    .footerColLink {
-      transition: none;
-    }
+  .aRef:hover {
+    color: inherit;
   }
 
-  .socialList {
-    margin-top: 3%;
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+  .footerColLink:hover {
+    color: inherit;
+    padding-left: 0px;
   }
 
-  .socialList li {
-    margin: 0 1em;
+  .footerColLink {
+    transition: none;
   }
+}
 
-  .socialList svg {
-    font-size: 1.5em;
-    cursor: disabled;
-  }
-
-  .footerCol .formSub button {
-    margin: 11px;
-  }
+.socialList {
+  list-style-type: none;
 }
