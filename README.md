@@ -49,8 +49,7 @@ Podem ser utilizados os seguintes métodos na rota /sugestões
 - React;
 - React DOM; 
 - React Router DOM;
-- React Icons;
-- Cors.
+- React Icons.
 
 <hr>
 
