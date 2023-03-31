@@ -1,6 +1,7 @@
 # Terceiro projeto em grupo - Lado C
 O objetivo do projeto é abrigar um website de cinema que trará informações das filiais e dos filmes em cartaz, além disso, também contendo uma seção de sugestões onde será de total domínio dos clientes para expor suas ideias e ajudar nas melhorias do cinema.
-*A página principal do site está reponsiva, porém ainda há alguns detalhes que preciso ajeitar e já estou trabalhando nisso. Foram feitas algumas adaptações para a execução em desktop, e não em mobile, apesar de ser uma parte importante do website. Foi necessário a entrega do trabalho e pelo tempo corrido, optei por deixar mais funcional e abrir mão da responsividade e estilo da página. Está tudo funcional, porém estarei desfazendo as adaptações e revisando todo o código para deixá-lo mais claro e responsivo.
+
+A página principal do site está reponsiva, porém ainda há alguns detalhes que preciso ajeitar e já estou trabalhando nisso. Foram feitas algumas adaptações para a execução em desktop, e não em mobile, apesar de ser uma parte importante do website. Foi necessário a entrega do trabalho e pelo tempo corrido, optei por deixar mais funcional e abrir mão da responsividade e estilo da página. Está tudo funcional, porém estarei desfazendo as adaptações e revisando todo o código para deixá-lo mais claro e responsivo.
 
 A webpage pode ser acessada por esse link: https://ladoc.onrender.com
 
